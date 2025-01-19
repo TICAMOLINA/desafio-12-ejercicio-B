@@ -33,4 +33,11 @@
             margin-right: 0.1rem;
         }
     }
+
+    @media screen and (min-width: 992px) {
+
+        & img {
+            width: 20rem;
+        }
+    }
 }
