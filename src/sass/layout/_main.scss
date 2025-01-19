@@ -24,7 +24,7 @@
     @media screen and (min-width: 768px) {
         & {
             justify-content: space-between;
-        
+
         }
 
         & img {
@@ -44,9 +44,22 @@
     @media screen and (min-width: 1200px) {
         &__image-container {
             width: 22rem;
-            }
+        }
+
         & img {
             margin-bottom: 4rem;
+        }
+    }
+
+    @media screen and (min-width: 1400px) {
+        &__image-container {
+            width: auto;
+        }
+
+        & img {
+            width: auto;
+            max-width: 100%;
+            height: auto;
         }
     }
 }
